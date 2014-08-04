@@ -14,7 +14,7 @@
 <script type="text/template" id="waterfall-tpl">
 {{#result}}
     <div class="item">
-        <img src="{{image}}" width="{{width}}" height="{{height}}" />
+        <img src="{{image}}" width="{{width}}" height="{{height}}" alt="{{image}}"/>
     </div>
 {{/result}}
 </script>
@@ -24,10 +24,10 @@
 <script>
 $('#container').waterfall({
     itemCls: 'item',
-    colWidth: 222,  
+    colWidth: 242,  
     gutterWidth: 15,
     gutterHeight: 15,
-    checkImagesLoaded: true,
+    checkImagesLoaded: false,
     path: function(page) {
         return 'image.json';
     },
