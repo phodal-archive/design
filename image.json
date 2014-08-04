@@ -1,7 +1,12 @@
 {
     "url": "https://raw.githubusercontent.com/gmszone/design/master/",
-    "design": [
-        "geekslove.png",
-        "logo.png"
-    ]
+    "result": [{
+        "image": "geekslove.png",
+        "width": 192,
+        "height": 288
+    }, {
+        "image": "logo.png",
+    "width": 192,
+        "height": 288
+    }]
 }
