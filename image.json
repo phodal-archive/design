@@ -24,5 +24,17 @@
         "image": "flower.png",
         "width": 240,
         "height": "auto"
+    }, {
+        "image": "handiwork.png",
+        "width": 240,
+        "height": "auto"
+    }, {
+        "image": "handiwork2.png",
+        "width": 240,
+        "height": "auto"
+    }, {
+        "image": "yellow.jpg",
+        "width": 240,
+        "height": "auto"
     }]
 }
